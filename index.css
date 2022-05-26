@@ -1,0 +1,295 @@
+body {
+margin: 0;
+padding: 0;
+width: 550px;
+height: 719px;
+left: 1368px;
+
+background: #1F2937;
+}
+
+h1 {
+margin: 0px;
+width: 550px;
+height: 190px;
+left: 0px;
+top: 0px;
+background: #3A69D2;
+}
+
+h2 {
+    
+position: absolute;
+width: 354px;
+height: 40px;
+left: 98px;
+top: 59px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+/* identical to box height, or 100% */
+margin: 0px;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
+
+h3 {
+    
+    position: absolute;
+width: 408px;
+height: 31px;
+left: 71px;
+top: 90px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+button {
+    
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px;
+
+position: absolute;
+width: 143.17px;
+height: 45px;
+
+
+background: #D1D4F4;
+border: 1px solid #4A4E74;
+border-radius: 7px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+color: #4A4E74;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#wash-btn {
+    
+left: 38px;
+top: 231px;
+}
+
+#mow-btn {
+
+left: 203.44px;
+top: 231px;
+}
+
+#weed-btn {
+left: 367.83px;
+top: 231px;
+    
+}
+
+h4 {
+font-style: normal;    
+font-family: 'Inter';
+font-weight: 700;
+font-size: 12px;
+line-height: 20px;
+color: #D5D4D8;
+}
+
+#task {
+    
+position: absolute;
+width: 200px;
+height: 50px;
+left: 0px;
+top: 325px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+/* or 100% */
+
+
+color: #F5F5F5;
+}
+
+#total-column {
+position: absolute;
+width: 78px;
+height: 22px;
+left: 432px;
+top: 325px;
+}
+
+#notes {
+    position: absolute;
+width: 105px;
+height: 28px;
+left: 39px;
+top: 509px;
+}
+
+#total-text {
+    
+position: absolute;
+width: 105px;
+height: 28px;
+left: 380px;
+top: 509px;
+}
+
+#subnote {
+position: absolute;
+width: 218px;
+height: 15px;
+left: 39px;
+top: 548px;
+    
+}
+
+#bar {
+position: absolute;
+width: 471px;
+height: 0px;
+left: 39px;
+top: 498px;
+
+border: 1px solid #C3C6DB;
+}
+
+#send {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 17px 9px 15px;
+gap: 12px;
+
+position: absolute;
+width: 473px;
+height: 44px;
+left: 38px;
+top: 626px;
+
+background: #3A69D2;
+/* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 7px;
+border: 1px solid #3A69D2;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* white */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+}
+
+h5 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+/* or 100% */
+
+
+color: #F5F5F5;
+}
+
+#task-header {
+    
+position: absolute;
+width: 97px;
+height: 21px;
+left: 39px;
+top: 323px;
+}
+
+
+
+#remove-btn {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+position: absolute;
+background: none;
+border: none;
+color: #D5D4D8;
+width: 60px;
+height: 10px;
+left: 150px;
+
+}
+
+
+#task-amount {
+position: absolute;
+width: 71px;
+height: 21px;
+left: 400px;
+top: 315px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 20px;
+/* or 83% */
+
+text-align: right;
+
+color: #F5F5F5;
+}
+
+#total-amt {
+    
+
+position: absolute;
+width: 105px;
+height: 28px;
+left: 370px;
+top: 510px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 32px;
+/* or 89% */
+
+text-align: right;
+
+color: #F5F5F5;
+}
